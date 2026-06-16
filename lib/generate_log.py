@@ -19,7 +19,7 @@ def generate_log(data):
         for entry in data:
             file.write(f"{entry}\n")
 
-    # STEP 4: Printing confirmation message
+    # STEP 4: Print confirmation message
     print(f"Log written to {filename}")
 
     return filename
